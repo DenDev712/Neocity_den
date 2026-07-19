@@ -1,15 +1,36 @@
 <!--this is the welcome page-->
 <!DOCTYPE html>
+<script lang="ts">
+    import '$lib/styles/home_page.css';
+</script>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
+    <title>Den's Web Page</title>
 </head>
 <body>
+    <div class="welcome">
+        <div id="welcome_container">
+         <img src="/images/welcome_page_images/welcomepage_textbox.png" alt="Welcome to my web page">
+         <p id="welcome_text">WELCOME TO THE DEPTHS</p>
+         <p id="welcome_text2">By DenDev712</p>
+        </div>
+    </div>
 
-    <h1>Hello World</h1>
-    <p>This is a paragraph where you can place your text content.</p>
-
+    <div class="corals">
+        <div id="coral1">
+            <img src="/images/welcome_page_images/coral1.png" alt="coral">
+        </div>
+        <div id="coral2">
+            <img src="/images/welcome_page_images/coral1.png" alt="coral">
+        </div>
+        <div id="coral3">
+            <img src="/images/welcome_page_images/coral1.png" alt="coral">  
+        </div>
+        <div id="coral4">
+            <img src="/images/welcome_page_images/coral1.png" alt="coral">          
+        </div>
+    </div>
 </body>
 </html>
