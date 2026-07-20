@@ -96,7 +96,7 @@ body{
     position: absolute;
     bottom: -12%;
     left: 20%;
-    z-index: 3;
+    z-index: 2;
 }
 #coral2 img{
     width: 130%;
@@ -111,7 +111,7 @@ body{
     position: absolute;
     bottom: -19%;
     left: 60%;
-    z-index: 3;
+    z-index: 2;
 }
 #coral3 img{
     width: 120%;
@@ -124,7 +124,7 @@ body{
     position: absolute;
     bottom: -12%;
     left: 70%;
-    z-index: 3;
+    z-index: 4;
 }   
 #coral4 img{
     width: 170%;
@@ -138,7 +138,7 @@ body{
     position: absolute;
     bottom: -10%;
     left: 20%;
-    z-index: 2;
+    z-index: 1;
 }
 #octopus img{
     width: 130%;
@@ -174,4 +174,45 @@ body{
     to {
         transform: translateX(calc(100vw + 600px)) rotate(15deg);
     }
+}
+
+#horsefish {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 2;
+}
+
+#horsefish img{
+    position: absolute;
+    bottom: -15%;
+    left: -300px;
+    width: 18%;
+    animation: swimHorseFish 30s linear infinite reverse;
+}
+
+@keyframes swimHorseFish {
+    from {
+        transform: translateX(0) rotate(15deg);
+    }
+    to {
+        transform: translateX(calc(100vw + 600px)) rotate(15deg);
+    }
+}
+
+#bubbles {
+    position: absolute;
+    bottom: 0;
+    top: -3%;
+    left: 150%;
+    transform: translateX(-50%);
+    width: 160%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+}
+
+#bubbles img {
+    width: 20%;
+
 }

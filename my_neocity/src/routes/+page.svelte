@@ -39,7 +39,14 @@
     </div>
 
     <div id="fish">
-        <img src="/images/welcome_page_images/fish.png" alt="fish">
+        <img src="/images/welcome_page_images/fish.png" alt="fish swimming">
+    </div>
+
+    <div id="horsefish">
+        <img src="/images/welcome_page_images/horsefish.png" alt="horse fish swimming">
+    </div>
+    <div id="bubbles">
+        <img src="/images/welcome_page_images/bubbles.png" alt="bubbles">
     </div>
 </body>
 </html>
