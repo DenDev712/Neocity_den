@@ -33,5 +33,13 @@
             <img src="/images/welcome_page_images/coral1.png" alt="coral">          
         </div>
     </div>
+    
+    <div id="octopus">
+        <img src="/images/welcome_page_images/octopus.png" alt="octopus">
+    </div>
+
+    <div id="fish">
+        <img src="/images/welcome_page_images/fish.png" alt="fish">
+    </div>
 </body>
 </html>
