@@ -12,11 +12,19 @@
 <body>
 
     <div class="welcome">
-        <div id="welcome_container">
+        <div id="welcomeContainer">
          <img src="/images/welcome_page_images/welcomepage_textbox.png" alt="Welcome to my web page">
-         <p id="welcome_text">WELCOME TO THE DEPTHS</p>
-         <p id="welcome_text2">By DenDev712</p>
+         <p id="welcomeText">WELCOME TO THE DEPTHS</p>
+         <p id="welcomeText2">By DenDev712</p>
         </div>
+    </div>
+    
+    <div id="enterButton">
+            <button type="button"> 
+                <img src="/images/welcome_page_images/welcomepage_enter.png" alt="Enter Button">
+                <span>ENTER</span>
+            </button>
+        
     </div>
 
     <div class="corals">
