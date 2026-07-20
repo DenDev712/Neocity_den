@@ -58,33 +58,48 @@ body{
 
 #coral1{
     position: absolute;
-    bottom: -4%;
+    bottom: -10%;
     left: 0;
-    width: 100%;
-    height: auto;
     z-index: 3;
 }
+#coral1 img{
+    width: 155%;
+    height: auto; 
+    transform: rotate(-10deg);
+}
+
 #coral2{
     position: absolute;
-    bottom: 0;
-    left: 25%;
-    width: 100%;
-    height: auto;
+    bottom: -12%;
+    left: 20%;
     z-index: 3;
 }
+#coral2 img{
+    width: 130%;
+    height: auto;
+    filter: brightness(1.2);
+     transform: rotate(15deg);
+}
+
 #coral3{
     position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 100%;
-    height: auto;
+    bottom: -19%;
+    left: 60%;
     z-index: 3;
 }
+#coral3 img{
+    width: 120%;
+    height: auto;
+}
+
 #coral4{
     position: absolute;
-    bottom: 0;
-    left: 75%;
-    width: 100%;
-    height: auto;
+    bottom: -12%;
+    left: 70%;
     z-index: 3;
 }   
+#coral4 img{
+    width: 170%;
+    height: auto;
+    filter: brightness(1.3);
+}

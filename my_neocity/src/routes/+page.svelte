@@ -10,6 +10,7 @@
     <title>Den's Web Page</title>
 </head>
 <body>
+
     <div class="welcome">
         <div id="welcome_container">
          <img src="/images/welcome_page_images/welcomepage_textbox.png" alt="Welcome to my web page">
