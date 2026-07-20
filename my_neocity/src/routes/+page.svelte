@@ -20,10 +20,12 @@
     </div>
     
     <div id="enterButton">
+        <a href="/home">
             <button type="button"> 
                 <img src="/images/welcome_page_images/welcomepage_enter.png" alt="Enter Button">
                 <span>ENTER</span>
             </button>
+        </a>
         
     </div>
 
