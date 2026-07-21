@@ -21,8 +21,8 @@
             
             <div id="enterButton">
                 <a href="/homepage">
-                        <img src="/images/welcome_page_images/welcomepage_enter.png" alt="Enter Button">
-                        <span>ENTER</span>
+                    <img src="/images/welcome_page_images/welcomepage_enter.png" alt="Enter Button">
+                    <span>ENTER</span>
                 </a>
             </div>
 

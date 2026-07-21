@@ -4,6 +4,12 @@
     font-weight: normal;
     font-style: normal;
 }
+body{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 .welcome_bg{
     background-image: url("/images/welcome_page_images/welcomepage_bg.jpg");
     background-size:cover;
@@ -59,7 +65,7 @@
     top: 75%;
     left: 52%;
     transform: translate(-50%, -50%);
-    z-index: 4;
+    z-index: 5;
 }
 #enterButton a {
     position: relative;
