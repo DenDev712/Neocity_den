@@ -145,3 +145,64 @@ a:active {
    width:450px;
    height:auto;
 }
+
+#stamps{
+    position: absolute;
+    top:660px;
+    left:500px;
+    z-index: 3;
+    padding-left: 20px;
+    padding-right:20px;
+}
+#stampFish{
+    width:340px;
+    height:auto;
+}
+#stampOrangeFish{
+    width:340px;
+    height:auto;
+}
+#stampJellyfish{
+    position: absolute;
+    top:700px;
+    left:1200px;
+    z-index: 3;
+    padding-left: 20px;
+    padding-right:20px;
+    width:410px;
+    height:270px;
+}
+
+#lastUpdateBar{
+    position: absolute;
+    top:1010px;
+    left:850px;
+    transform: translateX(-50%);
+    width: 1550px;
+    height: 100px;
+    background-color:rgba(145, 181, 212, 0.74);
+    filter:opacity(0.7);
+    border-radius: 7px;
+    z-index: 1;
+    outline: 5px solid rgb(0, 42, 255);
+}
+#lastUpdateBar p{
+    position:absolute;
+    left:600px;
+    font-size:32px;
+    font-family:serif;
+    font-weight: bold;
+    color:white;
+}
+#angel1{
+    position:absolute;
+    left:500px;
+    top:20px;
+    width:60px;
+}
+#angel2{
+    position: absolute;
+    left:1012px;
+    top:20px;
+    width:60px;
+}

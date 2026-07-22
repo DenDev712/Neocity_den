@@ -1,0 +1,1 @@
+export const updateDate = new Date().toLocaleDateString("en-GB");

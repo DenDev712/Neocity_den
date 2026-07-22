@@ -1,6 +1,7 @@
 <!--homepage-->
 <script lang="ts">
 	import { helloText } from '$lib/data/helloText';
+	import { updateDate } from '$lib/data/updateDate';
     import '$lib/styles/home_page.css';
 </script>
 
@@ -75,5 +76,17 @@
         </tr>
     </tbody>
 </table>
+</div>
+
+<div id="stamps">
+    <img src="/images/home_page_images/pull_peshk.png" alt="fish stamp" id="stampFish">
+    <img src="/images/home_page_images/pull_peshk_orange.png" alt="orange fish stamp" id="stampOrangeFish">
+</div>
+<img src="/images/home_page_images/jellyfish.gif" alt="jelly fish gif" id="stampJellyfish">
+
+<div id="lastUpdateBar">
+    <img src="/images/home_page_images/eva_angel.gif" alt="evangelion angel gif" id="angel1">
+    <img src="/images/home_page_images/eva_angel.gif" alt="evangelion angel gif" id="angel2">
+    <p>last updated on: {updateDate}</p> 
 </div>
 </div>
