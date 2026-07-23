@@ -2,6 +2,7 @@
 <script lang="ts">
 	import { helloText } from '$lib/data/helloText';
 	import { infoMe } from '$lib/data/infoMe';
+	import { infoPage } from '$lib/data/infoPage';
 	import { updateDate } from '$lib/data/updateDate';
     import '$lib/styles/home_page.css';
 </script>
@@ -97,7 +98,11 @@
 </iframe>
 
 <div id="infoMeContainer">
-    <p>{infoMe}</p>
+    <p>{@html infoMe}</p>
 </div>
 <img id="catGif" src="/images/home_page_images/cute_Cat.gif" alt="cat gif">
+
+<div id="infoPageContainer">
+    <p>{@html infoPage}</p>
+</div>
 </div>
