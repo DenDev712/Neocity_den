@@ -23,7 +23,7 @@
     background-color:rgba(97, 147, 213, 0.639);
     filter: brightness(1);
     z-index: 0;
-    overflow: hidden;
+    overflow: auto;
 }
 
 #homeHeader{
