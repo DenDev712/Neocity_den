@@ -201,8 +201,16 @@ a:active {
     width:60px;
 }
 #angel2{
-    position: absolute;
+    position:absolute;
     left:1012px;
     top:20px;
     width:60px;
+}
+
+#petWidget{
+    position:absolute;
+    top:1140px;
+    left:65px;
+    transform: scale(2);
+    transform-origin: top left;
 }

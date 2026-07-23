@@ -89,4 +89,9 @@
     <img src="/images/home_page_images/eva_angel.gif" alt="evangelion angel gif" id="angel2">
     <p>last updated on: {updateDate}</p> 
 </div>
+
+<iframe id="petWidget" title="pet widget" width="314" height="321" scrolling="no" 
+    src="https://gify.pet/pet/pet.html?name=Koko&dob=1784830208&gender=f&element=Earth&pet=cat.gif&map=ozwomp.jpg&background=&tablecolor=%23001eff&textcolor=%23ff8800" 
+    frameborder="0">
+</iframe>
 </div>
