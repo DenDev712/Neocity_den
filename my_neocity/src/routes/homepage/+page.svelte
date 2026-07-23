@@ -1,6 +1,7 @@
 <!--homepage-->
 <script lang="ts">
 	import { helloText } from '$lib/data/helloText';
+	import { infoMe } from '$lib/data/infoMe';
 	import { updateDate } from '$lib/data/updateDate';
     import '$lib/styles/home_page.css';
 </script>
@@ -94,4 +95,9 @@
     src="https://gify.pet/pet/pet.html?name=Koko&dob=1784830208&gender=f&element=Earth&pet=cat.gif&map=ozwomp.jpg&background=&tablecolor=%23001eff&textcolor=%23ff8800" 
     frameborder="0">
 </iframe>
+
+<div id="infoMeContainer">
+    <p>{infoMe}</p>
+</div>
+<img id="catGif" src="/images/home_page_images/cute_Cat.gif" alt="cat gif">
 </div>

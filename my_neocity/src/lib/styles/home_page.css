@@ -98,13 +98,16 @@ a:active {
 
     word-wrap: break-word;    
     overflow-wrap: break-word; 
+    white-space: pre-line;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom:10px;
+    padding-bottom:20px;
 
     outline: 5px solid rgb(0, 42, 255);
 }
 #helloTextContainer p{
+    position:absolute;
+    top: -70px;
     font-size:37px;
     font-family:serif;
     color:white;
@@ -213,4 +216,40 @@ a:active {
     left:65px;
     transform: scale(2);
     transform-origin: top left;
+}
+
+#infoMeContainer{
+    position: absolute;
+    top:1158px;
+    left:1180px;
+    transform: translateX(-50%);
+    width: 900px;
+    height: 400px;
+    background-color:rgba(145, 181, 212, 0.74);
+    filter:opacity(0.7);
+    border-radius: 7px;
+    z-index: 1;
+
+    word-wrap: break-word;    
+    overflow-wrap: break-word; 
+    white-space: pre-line;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:10px;
+
+    outline: 5px solid rgb(0, 42, 255);
+}
+#catGif{
+    position:absolute;
+    top:1166px;
+    left: 1400px;
+    width: 140px;
+    z-index: 4;
+}
+#infoMeContainer p{
+    position:absolute;
+    top:-30px;
+    font-size:37px;
+    font-family:serif;
+    color:white;
 }
