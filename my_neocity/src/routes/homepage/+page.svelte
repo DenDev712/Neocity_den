@@ -125,9 +125,15 @@
   <img 
   class:playing={playing} 
   class="diskImage" src="/images/home_page_images/raw_disk1.png" alt="disc">
-  </div>
-  <audio
+</div>
+<audio
     bind:this={audio}
     id="audio" src="https://files.catbox.moe/35ccj6.mp3"></audio>
+
+<div id="fillerGifContainer">
+    <img id="fillerGif1" src="/images/home_page_images/take_your_meds.gif" alt="take your meds gif">
+    <img id="fillerGif2" src="/images/home_page_images/kirby.gif" alt="kirby gif">
+    <img id="fillerGif3" src="/images/home_page_images/surfer.gif" alt="web surf gif">
+</div>
 </div>
 
