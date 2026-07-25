@@ -346,7 +346,7 @@ a:active {
     width:500px;
     top:2230px;
     left:800px;
-    z-index:7;
+    z-index:4;
 }
 #fillerGif1{
     position:absolute;
@@ -366,3 +366,33 @@ a:active {
     height:auto;
 }
 
+#snailImage{
+    position:absolute;
+    width:550px;
+    top:2700px;
+    left:100px;
+    z-index:4;
+}
+
+#badAppleGif{
+    position:absolute;
+    width:600px;
+    top:2700px;
+    left:900px;
+    z-index:4;
+}
+
+#cdAdGif{
+    position:absolute;
+    width:950px;
+    top:3100px;
+    left:700px;
+    z-index:4;
+}
+
+#footer{
+    position:absolute;
+    width: 1650px;
+    top:3300px;
+    left:25px;
+}

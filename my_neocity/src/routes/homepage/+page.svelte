@@ -135,5 +135,11 @@
     <img id="fillerGif2" src="/images/home_page_images/kirby.gif" alt="kirby gif">
     <img id="fillerGif3" src="/images/home_page_images/surfer.gif" alt="web surf gif">
 </div>
+
+<img id="snailImage" src="/images/home_page_images/cute_snail.jpg" alt="cute snail">
+<img id="badAppleGif" src="/images/home_page_images/bad_apple.gif" alt="bad apple">
+<img id="cdAdGif" src="/images/home_page_images/cd_ad.gif" alt="cd fake ad">
+
+<img id="footer" src="/images/home_page_images/diving_footer.gif" alt="diver">
 </div>
 
