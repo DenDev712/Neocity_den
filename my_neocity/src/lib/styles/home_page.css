@@ -282,3 +282,61 @@ a:active {
     font-family:serif;
     color:white;
 }
+
+#evangelionGif{
+    position:absolute;
+    top: 1800px;
+    left: 80px;
+    width: 600px;
+}
+
+#pokemonImg{
+    position:absolute;
+    top: 2080px;
+    left: 800px;
+    width: 800px;
+}
+
+
+#audioPlayerContainer{
+    position: absolute;
+    top:2200px;
+    left:90px;
+    width: 500px;
+    height: auto;
+    z-index:4;
+}
+#audioPlayerContainer button{
+    background:none;
+}
+.coverImage{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    z-index:5;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+.diskImage{
+    position: absolute;
+    width:300px;
+    top:20px;
+    height:auto;
+    left: 120px;
+    animation: spin 4s linear infinite;
+    animation-play-state: paused;
+}
+.diskImage.playing {
+    animation-play-state: running;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.coverImage:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 10px #7fcfff);
+  }

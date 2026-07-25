@@ -5,6 +5,15 @@
 	import { infoPage } from '$lib/data/infoPage';
 	import { updateDate } from '$lib/data/updateDate';
     import '$lib/styles/home_page.css';
+    import { toggleAudio } from "$lib/audioPlayer/audioPlayer";
+
+    let audio: HTMLAudioElement;
+    let playing = $state(false);
+
+    function handleAudioToggle() {
+        toggleAudio(audio);
+        playing = !playing;
+    } 
 </script>
 
 <div class="homePage_bg"></div>
@@ -105,4 +114,20 @@
 <div id="infoPageContainer">
     <p>{@html infoPage}</p>
 </div>
+
+<img id="evangelionGif" src="/images/home_page_images/evangelion.gif" alt="evangelion"/>
+<img id="pokemonImg" src="/images/home_page_images/water_pokemon.png" alt="water pokemon"/>
+
+<div id="audioPlayerContainer">
+  <button type="button" onclick={handleAudioToggle}>
+  <img class="coverImage" src="/images/home_page_images/evangelion_cover.jpg" alt="music cover">
+  </button>
+  <img 
+  class:playing={playing} 
+  class="diskImage" src="/images/home_page_images/raw_disk1.png" alt="disc">
+  </div>
+  <audio
+    bind:this={audio}
+    id="audio" src="https://files.catbox.moe/35ccj6.mp3"></audio>
 </div>
+
