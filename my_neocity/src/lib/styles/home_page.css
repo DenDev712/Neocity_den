@@ -396,3 +396,24 @@ a:active {
     top:3300px;
     left:25px;
 }
+
+/*scrollbar*/
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #8af5ee #ffffff38;
+}
+
+
+*::-webkit-scrollbar {
+    width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background:#ffffff38;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #8af5ee;
+    border-radius: 5px;
+    border: 2px solid #ffffff38;
+}
