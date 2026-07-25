@@ -228,7 +228,7 @@ a{
     bottom: -15%;
     left: -300px;
     width: 18%;
-    animation: swimHorseFish 30s linear infinite reverse;
+    animation: swimHorseFish 20s linear infinite reverse;
 }
 
 @keyframes swimHorseFish {
