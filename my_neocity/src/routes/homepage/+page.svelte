@@ -16,12 +16,12 @@
     } 
 </script>
 
-<div class="homePage_bg"></div>
+<div class="backgroundImage"></div>
 
-<div id="homeContainer">
-    <div id="homeHeader">
-    <img src="/images/home_page_images/mainp_header.gif" alt="the homepage header">
-</div>
+<div id="pageContainer">
+    <div id="pageHeader">
+        <img src="/images/home_page_images/mainp_header.gif" alt="the homepage header">
+    </div>
 <div id="meBar">
     <a href="/mepage"><span id="meText">ME</span></a>
     <a href="/homepage"><span id="homeText">HOME</span></a>   

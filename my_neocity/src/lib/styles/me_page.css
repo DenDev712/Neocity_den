@@ -1,14 +1,37 @@
-.mePage_bg{
-    width: 100vw;
-    min-height: 100vh;
+#musicTxtContainer{
+    position: absolute;
+    top:240px;
+    left:540px;
+    transform: translateX(-50%);
+    width: 900px;
+    height: 520px;
+    background-color:rgba(145, 181, 212, 0.74);
+    filter:opacity(0.7);
+    border-radius: 7px;
+    z-index: 1;
 
-    background-image: url("/images/home_page_images/home_bg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: brightness(0.8);
-    position: relative;
-    margin:0;
-    padding:0;
-    overflow: hidden;
+    word-wrap: break-word;    
+    overflow-wrap: break-word; 
+    white-space: pre-line;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:20px;
+
+    outline: 5px solid rgb(0, 42, 255);
+}
+#musicTxtContainer p{
+    position:absolute;
+    top: -10px;
+    font-size:37px;
+    font-family:serif;
+    color:white;
+}
+a:visited {
+    color:inherit;
+}
+a:hover {
+    color: inherit;
+}
+a:active {
+    color: inherit;
 }
