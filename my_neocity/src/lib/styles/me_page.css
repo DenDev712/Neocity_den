@@ -95,6 +95,9 @@ a:active {
 .thirdDivider{
     margin-top:2650px;
 }
+.fourthDivider{
+    margin-top:3050px;
+}
 
 #favMangaContainer{
     position: absolute;
@@ -135,4 +138,39 @@ a:active {
     top:2300px;
     left:1200px;
     width:300px;
+}
+
+#favFoodContainer{
+    position: absolute;
+    top:2750px;
+    left:540px;
+    transform: translateX(-50%);
+    width: 900px;
+    height: 250px;
+    background-color:rgba(145, 181, 212, 0.74);
+    filter:opacity(0.7);
+    border-radius: 7px;
+    z-index: 1;
+
+    word-wrap: break-word;    
+    overflow-wrap: break-word; 
+    white-space: pre-line;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:20px;
+
+    outline: 5px solid rgb(0, 42, 255);
+}
+#favFoodContainer p{
+    position:absolute;
+    top: -10px;
+    font-size:37px;
+    font-family:serif;
+    color:white;
+}
+#tetoFat{
+    position:absolute;
+    top:2750px;
+    left:1200px;
+    width:250px;
 }

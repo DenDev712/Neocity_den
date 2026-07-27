@@ -5,6 +5,7 @@
 	import { favAnime } from '$lib/data/favAnime';
     import Divider from '$lib/components/Divider.svelte';
 	import { favManga } from '$lib/data/favManga';
+	import { favFood } from '$lib/data/favFood';
 </script>
 <div class="backgroundImage"></div>
 <div id="pageContainer">
@@ -45,6 +46,16 @@
     <img id="phosImage" src="/images/me_page_images/phos_manga.jpg" alt="land of lustrous 2">
 
     <div class="thirdDivider">
+        <Divider></Divider>
+    </div>
+
+    <div id="favFoodContainer">
+        <p>{favFood}</p>
+    </div>
+
+    <img id="tetoFat" src="/images/me_page_images/teto_fat.jpg" alt="teto fat ahh">
+
+    <div class="fourthDivider"> 
         <Divider></Divider>
     </div>
 </div>
