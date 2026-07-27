@@ -3,9 +3,8 @@
 <style>
 #pageDivider{
     position:absolute;
-    top:800px;
-    left:50px;
-    width:1600px;
+    width:1550px;
+    left:70px;
     z-index:2;
 }
 </style>
