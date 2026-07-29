@@ -21,7 +21,7 @@
             
             <div id="enterButton">
                 <a href="/homepage">
-                    <img src="/images/welcome_page_images/welcomepage_enter.png" alt="Enter Button">
+                    <img src="/images/welcome_page_images/welcomepage_enter.webp" alt="Enter Button">
                     <span>ENTER</span>
                 </a>
             </div>
@@ -42,15 +42,15 @@
             </div>
             
             <div id="octopus">
-                <img src="/images/welcome_page_images/octopus.png" alt="octopus">
+                <img src="/images/welcome_page_images/octopus.webp" alt="octopus">
             </div>
 
             <div id="fish">
-                <img src="/images/welcome_page_images/fish.png" alt="fish swimming">
+                <img src="/images/welcome_page_images/fish.webp" alt="fish swimming">
             </div>
 
             <div id="horsefish">
-                <img src="/images/welcome_page_images/horsefish.png" alt="horse fish swimming">
+                <img src="/images/welcome_page_images/horsefish.webp" alt="horse fish swimming">
             </div>
             <div id="bubbles">
                 <img src="/images/welcome_page_images/bubbles.png" alt="bubbles">

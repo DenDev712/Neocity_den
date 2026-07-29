@@ -90,8 +90,8 @@
 </div>
 
 <div id="stamps">
-    <img src="/images/home_page_images/pull_peshk.png" alt="fish stamp" id="stampFish">
-    <img src="/images/home_page_images/pull_peshk_orange.png" alt="orange fish stamp" id="stampOrangeFish">
+    <img src="/images/home_page_images/pull_peshk.webp" alt="fish stamp" id="stampFish">
+    <img src="/images/home_page_images/pull_peshk_orange.webp" alt="orange fish stamp" id="stampOrangeFish">
 </div>
 <img src="/images/home_page_images/jellyfish.gif" alt="jelly fish gif" id="stampJellyfish">
 
@@ -115,31 +115,31 @@
     <p>{@html infoPage}</p>
 </div>
 
-<img id="evangelionGif" src="/images/home_page_images/evangelion.gif" alt="evangelion"/>
-<img id="pokemonImg" src="/images/home_page_images/water_pokemon.png" alt="water pokemon"/>
+<img id="evangelionGif" loading="lazy"src="/images/home_page_images/evangelion.gif" alt="evangelion"/>
+<img id="pokemonImg" loading="lazy" src="/images/home_page_images/water_pokemon.png" alt="water pokemon"/>
 
 <div id="audioPlayerContainer">
   <button type="button" onclick={handleAudioToggle}>
-  <img class="coverImage" src="/images/home_page_images/evangelion_cover.jpg" alt="music cover">
+  <img class="coverImage" src="/images/home_page_images/evangelion_cover.webp" alt="music cover">
   </button>
   <img 
   class:playing={playing} 
-  class="diskImage" src="/images/home_page_images/raw_disk1.png" alt="disc">
+  class="diskImage" src="/images/home_page_images/raw_disk1.webp" alt="disc">
 </div>
 <audio
     bind:this={audio}
     id="audio" src="https://files.catbox.moe/35ccj6.mp3"></audio>
 
 <div id="fillerGifContainer">
-    <img id="fillerGif1" src="/images/home_page_images/take_your_meds.gif" alt="take your meds gif">
-    <img id="fillerGif2" src="/images/home_page_images/kirby.gif" alt="kirby gif">
-    <img id="fillerGif3" src="/images/home_page_images/surfer.gif" alt="web surf gif">
+    <img id="fillerGif1" loading="lazy" src="/images/home_page_images/take_your_meds.gif" alt="take your meds gif">
+    <img id="fillerGif2" loading="lazy" src="/images/home_page_images/kirby.gif" alt="kirby gif">
+    <img id="fillerGif3" loading="lazy" src="/images/home_page_images/surfer.gif" alt="web surf gif">
 </div>
 
-<img id="snailImage" src="/images/home_page_images/cute_snail.jpg" alt="cute snail">
-<img id="badAppleGif" src="/images/home_page_images/bad_apple.gif" alt="bad apple">
-<img id="cdAdGif" src="/images/home_page_images/cd_ad.gif" alt="cd fake ad">
+<img id="snailImage" loading="lazy" src="/images/home_page_images/cute_snail.webp" alt="cute snail">
+<img id="badAppleGif" loading="lazy" src="/images/home_page_images/bad_apple.gif" alt="bad apple">
+<img id="cdAdGif" loading="lazy" src="/images/home_page_images/cd_ad.gif" alt="cd fake ad">
 
-<img id="footer" src="/images/home_page_images/diving_footer.gif" alt="diver">
+<img id="footer" loading="lazy" src="/images/home_page_images/diving_footer.gif" alt="diver">
 </div>
 

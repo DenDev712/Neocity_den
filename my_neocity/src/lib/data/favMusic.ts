@@ -1,6 +1,6 @@
 export const favMusic = `i really like music and i have really diverse taste tbh
 here’s some music i was listening to while making this page:
-(trying to listening to music that gives off the same vibe)
+(trying to listen to music that gives off the same vibe)
 <a href ="https://youtu.be/TEM5yY8q1nQ?si=GdStUftUVmFhdaKB">this playlist boots up old memories.</a>
 <a href ="https://youtu.be/BAyOWCjraGc?si=Zy8O3tgY6K-5_9zd">this Is What Frutiger Aero Sounds Like</a>
 <a href ="https://youtu.be/xtJawlFQU7Y?si=YRSoDnwOrAnyHg9X">Persona3 20th Anniversary Remix</a>

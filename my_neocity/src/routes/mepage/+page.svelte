@@ -6,6 +6,7 @@
     import Divider from '$lib/components/Divider.svelte';
 	import { favManga } from '$lib/data/favManga';
 	import { favFood } from '$lib/data/favFood';
+	import { favGames } from '$lib/data/favGames';
 </script>
 <div class="backgroundImage"></div>
 <div id="pageContainer">
@@ -31,8 +32,8 @@
     <div id="favAnimeContainer">
         <p>{favAnime}</p>
     </div>
-    <img id="reiChibi" src="/images/me_page_images/rei_chibi.jpg" alt="chibi rei">
-    <img id="johnnyGyat" src="/images/me_page_images/gyrojoke.jpg" alt="fat johnny">
+    <img id="reiChibi" src="/images/me_page_images/rei_chibi.webp" alt="chibi rei">
+    <img id="johnnyGyat" src="/images/me_page_images/gyrojoke.webp" alt="fat johnny">
     
     <div class="secondDivider">
         <Divider></Divider>
@@ -42,8 +43,8 @@
         <p>{favManga}</p>
     </div>
 
-    <img id="hnkImage" src="/images/me_page_images/houseki_no_kuni.jpg" alt="land of lustrous">
-    <img id="phosImage" src="/images/me_page_images/phos_manga.jpg" alt="land of lustrous 2">
+    <img id="hnkImage" src="/images/me_page_images/houseki_no_kuni.webp" loading="lazy" alt="land of lustrous">
+    <img id="phosImage" src="/images/me_page_images/phos_manga.webp" loading="lazy" alt="land of lustrous 2">
 
     <div class="thirdDivider">
         <Divider></Divider>
@@ -53,9 +54,36 @@
         <p>{favFood}</p>
     </div>
 
-    <img id="tetoFat" src="/images/me_page_images/teto_fat.jpg" alt="teto fat ahh">
+    <img id="tetoFat" src="/images/me_page_images/teto_fat.webp" loading="lazy" alt="teto fat ahh">
 
     <div class="fourthDivider"> 
         <Divider></Divider>
+    </div>
+
+    <div id="favGamesContainer">
+        <p>{favGames}</p>
+    </div>
+    <img id="persona3" src="/images/me_page_images/persona3.webp" loading="lazy" alt="persona 3">
+
+    <div class="fifthDivider">
+        <Divider></Divider>
+    </div>
+
+    <div id="gallerytxtContainer">
+        <p>GALLERY</p>
+    </div>
+    
+    <div class="galleryImgContainer">
+        <img src="/images/me_page_images/gallery/catgrass.webp" loading="lazy" alt="cat on grass">
+        <img src="/images/me_page_images/gallery/catoncar.webp" loading="lazy" alt="cat on car">
+        <img src="/images/me_page_images/gallery/catsmile.webp" loading="lazy" alt="cat chilling">
+        <img src="/images/me_page_images/gallery/cherries.webp" loading="lazy" alt="cherries">
+        <img src="/images/me_page_images/gallery/city.webp" loading="lazy" alt="city">
+        <img src="/images/me_page_images/gallery/city2.webp" loading="lazy" alt="city">
+        <img src="/images/me_page_images/gallery/city3.webp" loading="lazy" alt="city">
+        <img src="/images/me_page_images/gallery/folk.webp" loading="lazy" alt="folk">
+        <img src="/images/me_page_images/gallery/moon.webp" loading="lazy" alt="moon">
+        <img src="/images/me_page_images/gallery/sunset.webp" loading="lazy" alt="sunset">
+        <img src="/images/me_page_images/gallery/sunset2.webp" loading="lazy" alt="sunset">
     </div>
 </div>
