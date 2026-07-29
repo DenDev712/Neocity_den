@@ -74,16 +74,14 @@
     </div>
     
     <div class="galleryImgContainer">
-        <img src="/images/me_page_images/gallery/catgrass.webp" loading="lazy" alt="cat on grass">
-        <img src="/images/me_page_images/gallery/catoncar.webp" loading="lazy" alt="cat on car">
-        <img src="/images/me_page_images/gallery/catsmile.webp" loading="lazy" alt="cat chilling">
-        <img src="/images/me_page_images/gallery/cherries.webp" loading="lazy" alt="cherries">
-        <img src="/images/me_page_images/gallery/city.webp" loading="lazy" alt="city">
-        <img src="/images/me_page_images/gallery/city2.webp" loading="lazy" alt="city">
-        <img src="/images/me_page_images/gallery/city3.webp" loading="lazy" alt="city">
-        <img src="/images/me_page_images/gallery/folk.webp" loading="lazy" alt="folk">
-        <img src="/images/me_page_images/gallery/moon.webp" loading="lazy" alt="moon">
-        <img src="/images/me_page_images/gallery/sunset.webp" loading="lazy" alt="sunset">
-        <img src="/images/me_page_images/gallery/sunset2.webp" loading="lazy" alt="sunset">
+        <img id="img1" src="/images/me_page_images/gallery/catgrass.webp" loading="lazy" alt="cat on grass">
+        <img id="img2"src="/images/me_page_images/gallery/catsmile.webp" loading="lazy" alt="cat chilling">
+        <img id="img3"src="/images/me_page_images/gallery/cherries.webp" loading="lazy" alt="cherries">
+        <img id="img4"src="/images/me_page_images/gallery/city.webp" loading="lazy" alt="city">
+        <img id="img5"src="/images/me_page_images/gallery/city2.webp" loading="lazy" alt="city">
+        <img id="img6"src="/images/me_page_images/gallery/city3.webp" loading="lazy" alt="city">
+        <img id="img7"src="/images/me_page_images/gallery/folk.webp" loading="lazy" alt="folk">
+        <img id="img8"src="/images/me_page_images/gallery/moon.webp" loading="lazy" alt="moon">
+        <img id="img9"src="/images/me_page_images/gallery/sunset.webp" loading="lazy" alt="sunset">
     </div>
 </div>
