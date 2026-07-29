@@ -101,6 +101,9 @@ a:active {
 .fifthDivider{
     margin-top:3500px;
 }
+.sixthDivider{
+    margin-top:5100px;
+}
 
 #favMangaContainer{
     position: absolute;
@@ -211,7 +214,7 @@ a:active {
     left:1200px;
     width:200px;
 }
-#gallerytxtContainer{
+#galleryTxtContainer{
     position: absolute;
     top:3600px;
     left:800px;
@@ -232,7 +235,7 @@ a:active {
 
     outline: 5px solid rgb(0, 42, 255);
 }
-#gallerytxtContainer p{
+#galleryTxtContainer p{
     position:absolute;
     top: -20px;
     left: 270px;
@@ -251,4 +254,68 @@ a:active {
 }
 .galleryImgContainer img{
     width:400px;
+}
+
+#socialsTxtContainer{
+    position: absolute;
+    top:5200px;
+    left:420px;
+    transform: translateX(-50%);
+    width: 650px;
+    height: 270px;
+    background-color:rgba(145, 181, 212, 0.74);
+    filter:opacity(0.7);
+    border-radius: 7px;
+    z-index: 1;
+
+    word-wrap: break-word;    
+    overflow-wrap: break-word; 
+    white-space: pre-line;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:20px;
+
+    outline: 5px solid rgb(0, 42, 255);
+}
+#socialsTxtContainer p{
+    position:absolute;
+    top: -20px;
+    left: 20px;
+    font-size:37px;
+    font-family:serif;
+    color:white; 
+    text-decoration: none; 
+}
+#socialsTxtContainer a{
+    text-decoration: none;
+    color:inherit;
+}
+a:visited {
+    color:inherit;
+}
+a:hover {
+    color: inherit;
+}
+a:active {
+    color: inherit;
+}
+
+#fih{
+    position:absolute;
+    top:5200px;
+    width:290px;
+    left:800px;
+}
+#flamingo{
+    position:absolute;
+    top:5200px;
+    width:290px;
+    left:1200px;
+}
+
+#footer1{
+    position:absolute;
+    width: 1650px;
+    top:5550px;
+    left:25px;
 }

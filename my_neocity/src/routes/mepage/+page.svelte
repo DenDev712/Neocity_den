@@ -7,6 +7,7 @@
 	import { favManga } from '$lib/data/favManga';
 	import { favFood } from '$lib/data/favFood';
 	import { favGames } from '$lib/data/favGames';
+	import { socials } from '$lib/data/socials';
 </script>
 <div class="backgroundImage"></div>
 <div id="pageContainer">
@@ -69,7 +70,7 @@
         <Divider></Divider>
     </div>
 
-    <div id="gallerytxtContainer">
+    <div id="galleryTxtContainer">
         <p>GALLERY</p>
     </div>
     
@@ -84,4 +85,17 @@
         <img id="img8"src="/images/me_page_images/gallery/moon.webp" loading="lazy" alt="moon">
         <img id="img9"src="/images/me_page_images/gallery/sunset.webp" loading="lazy" alt="sunset">
     </div>
+
+    <div class="sixthDivider">
+        <Divider></Divider>
+    </div>
+
+    <div id="socialsTxtContainer">
+        <p>{@html socials}</p>
+    </div>
+
+    <img id="fih" loading="lazy" src="/images/me_page_images/fish_smoke_cool.webp" alt="fih smoking">
+    <img id="flamingo" loading="lazy" src="/images/me_page_images/flamingo_al.webp" alt="flamingo">
+
+    <img id="footer1" loading="lazy" src="/images/home_page_images/diving_footer.gif" alt="diver">
 </div>
