@@ -1,0 +1,44 @@
+#resourcesContainer{
+    position: absolute;
+    top:250px;
+    left:850px;
+    transform: translateX(-50%);
+    width: 1550px;
+    height: 1300px;
+    background-color:rgba(145, 181, 212, 0.74);
+    filter:opacity(0.7);
+    border-radius: 7px;
+    z-index: 2;
+
+    word-wrap: break-word;    
+    overflow-wrap: break-word; 
+    white-space: pre-line;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:20px;
+
+    outline: 5px solid rgb(0, 42, 255);
+}
+#resourcesContainer p{
+    position:absolute;
+    top: -20px;
+    left: 20px;
+    font-size:37px;
+    font-family:serif;
+    color:white; 
+    text-decoration: none; 
+}
+
+a:visited {
+    color:inherit;
+}
+a:hover {
+    color: inherit;
+}
+a:active {
+    color: inherit;
+}
+
+.Divider1{
+    margin-top:1600px;
+}
