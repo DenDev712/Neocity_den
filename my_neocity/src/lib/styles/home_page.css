@@ -297,6 +297,25 @@ a:active {
     width: 800px;
 }
 
+#jellyFish {
+    position: absolute;
+    inset: 0;
+    top: 1300px;
+    width:600px;
+    pointer-events: none;
+    left: 2650px;
+    z-index: 10;
+    animation: floatUp 10s linear infinite;
+}
+@keyframes floatUp {
+    from {
+        transform: translateX(-50%) translateY(0);
+    }
+
+    to {
+        transform: translateX(-50%) translateY(calc(-100vh - 400px));
+    }
+}
 
 #audioPlayerContainer{
     position: absolute;
