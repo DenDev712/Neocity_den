@@ -317,6 +317,25 @@ a:active {
     left:1200px;
 }
 
+#fishMove {
+    position: absolute;
+    inset: 0;
+    top: 400px;
+    width:300px;
+    pointer-events: none;
+    left: -300px;
+    z-index: 10;
+    animation: swim 12s linear infinite;
+}
+
+@keyframes swim {
+    from {
+        transform: translateX(0) rotate(15deg);
+    }
+    to {
+        transform: translateX(calc(100vw + 600px)) rotate(15deg);
+    }
+}
 #footer1{
     position:absolute;
     width: 1650px;

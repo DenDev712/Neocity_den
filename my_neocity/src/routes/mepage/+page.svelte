@@ -10,6 +10,7 @@
 	import { socials } from '$lib/data/socials';
 </script>
 <div class="backgroundImage"></div>
+<img id="fishMove" src="/images/me_page_images/fish_cute.webp" alt="fih">
 <div id="pageContainer">
     <div id="pageHeader">
         <img src="/images/home_page_images/mainp_header.gif" alt="the homepage header">
@@ -97,6 +98,7 @@
 
     <img id="fih" loading="lazy" src="/images/me_page_images/fish_smoke_cool.webp" alt="fih smoking">
     <img id="flamingo" loading="lazy" src="/images/me_page_images/flamingo_al.webp" alt="flamingo">
+
 
     <img id="footer1" loading="lazy" src="/images/home_page_images/diving_footer.gif" alt="diver">
 </div>
