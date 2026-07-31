@@ -42,3 +42,54 @@ a:active {
 .Divider1{
     margin-top:1600px;
 }
+
+#aboutPageContainer{
+    position: absolute;
+    top:1700px;
+    left:850px;
+    transform: translateX(-50%);
+    width: 1550px;
+    height: 550px;
+    background-color:rgba(145, 181, 212, 0.74);
+    filter:opacity(0.7);
+    border-radius: 7px;
+    z-index: 2;
+
+    word-wrap: break-word;    
+    overflow-wrap: break-word; 
+    white-space: pre-line;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:20px;
+
+    outline: 5px solid rgb(0, 42, 255);   
+}
+#aboutPageContainer p{
+    position:absolute;
+    top: -20px;
+    left: 20px;
+    font-size:37px;
+    font-family:serif;
+    color:white; 
+    text-decoration: none; 
+}
+
+#burrito{
+    position:absolute;
+    top:2350px;
+    left:150px;
+    width:600px;
+}
+#funnyMeme{
+    position:absolute;
+    top:2350px;
+    left:900px;
+    width:600px;
+}
+
+#footer2{
+    position: absolute;
+    top:3050px;
+    width:1650px;
+    left:25px;
+}

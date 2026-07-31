@@ -4,6 +4,7 @@
     import '$lib/styles/home_page.css'
     import Divider from '$lib/components/Divider.svelte';
 	import { resourcesLinks } from '$lib/data/resourcesLinks';
+	import { aboutPage } from '$lib/data/aboutPage';
 </script>
 
 <div class="backgroundImage"></div>
@@ -25,4 +26,13 @@
     <div class="Divider1">
         <Divider></Divider>
     </div>
+
+    <div id="aboutPageContainer">
+        <p>{@html aboutPage}</p>
+    </div>
+
+    <img id="burrito" loading="lazy" src="/images/foryou_page_images/frutiger_burrito.webp" alt="burrito">
+    <img id="funnyMeme" loading="lazy" src="/images/foryou_page_images/psycho_meme.webp" alt="meme">
+
+    <img id="footer2" loading="lazy" src="/images/home_page_images/diving_footer.gif" alt="diver">
 </div>
