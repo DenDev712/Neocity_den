@@ -19,6 +19,41 @@
 
     outline: 5px solid rgb(0, 42, 255);
 }
+#lightHouse{
+    position:absolute;
+    z-index:10;
+    top:220px;
+    width:600px;
+}
+#lightHouseContainer {
+    position: absolute;
+    display: inline-block;
+}
+
+#lightBeam {
+    position: absolute;
+    top: 190px;      
+    left: 270px;      
+    width: 500px;
+    height: 250px;
+
+    background: linear-gradient(
+        90deg,
+        rgba(255,255,220,0.5),
+        rgba(255,255,220,0)
+    );
+
+    clip-path: polygon(0 50%, 100% 0, 100% 100%);
+    pointer-events: none;
+    transform-origin: left center;
+    animation: sweep 8s ease-in-out infinite;
+}
+
+@keyframes sweep {
+    0%   { transform: rotate(-20deg); }
+    50%  { transform: rotate(20deg); }
+    100% { transform: rotate(-20deg); }
+}
 #resourcesContainer p{
     position:absolute;
     top: -20px;

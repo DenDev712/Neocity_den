@@ -17,7 +17,7 @@
 </script>
 
 <div class="backgroundImage"></div>
-<img id="jellyFish" loading="lazy" src="/images/home_page_images/jelly_fish.webp" alt="jelly fish">
+<img id="jellyFish" src="/images/home_page_images/jelly_fish.webp" alt="jelly fish">
 <div id="pageContainer">
     <div id="pageHeader">
         <img src="/images/home_page_images/mainp_header.gif" alt="the homepage header">

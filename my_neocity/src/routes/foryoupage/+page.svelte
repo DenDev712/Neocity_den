@@ -7,7 +7,13 @@
 	import { aboutPage } from '$lib/data/aboutPage';
 </script>
 
-<div class="backgroundImage"></div>
+<div class="backgroundImage">
+<div id="lightHouseContainer">
+    <img id="lightHouse" src="/images/foryou_page_images/lighthouse.webp" alt="lighthouse">
+    <div id="lightBeam"></div>
+</div>
+</div>
+
 <div id="pageContainer">
     <div id="pageHeader">
         <img src="/images/home_page_images/mainp_header.gif" alt="the homepage header">
