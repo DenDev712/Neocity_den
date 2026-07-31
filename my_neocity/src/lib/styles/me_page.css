@@ -38,12 +38,16 @@ a:active {
 
 #aaGif{
     position:absolute;
-    top:360px;
+    top:260px;
     left:1150px;
     width:400px;
     z-index:2;
 }
-
+#fishGroove{
+    position:absolute;
+    top:550px;
+    left:1200px;
+}
 #favAnimeContainer{
     position: absolute;
     top:900px;

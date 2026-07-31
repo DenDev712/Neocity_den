@@ -24,6 +24,7 @@
     <div id="musicTxtContainer">
         <p>{@html favMusic}</p>
     </div>
+    <img id="fishGroove" src="/images/me_page_images/fish_groove.gif" alt="fish">
     <img id="aaGif" src="/images/me_page_images/aaaaaa.gif" alt="scream gif">
 
     <div class="firstDivider">
