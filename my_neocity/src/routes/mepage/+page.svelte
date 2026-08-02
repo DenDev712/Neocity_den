@@ -46,8 +46,8 @@
         <p>{favManga}</p>
     </div>
 
-    <img id="hnkImage" src="/images/me_page_images/houseki_no_kuni.webp" loading="lazy" alt="land of lustrous">
-    <img id="phosImage" src="/images/me_page_images/phos_manga.webp" loading="lazy" alt="land of lustrous 2">
+    <img id="hnkImage" decoding="async"src="/images/me_page_images/houseki_no_kuni.webp" loading="lazy" alt="land of lustrous">
+    <img id="phosImage" decoding="async" src="/images/me_page_images/phos_manga.webp" loading="lazy" alt="land of lustrous 2">
 
     <div class="thirdDivider">
         <Divider></Divider>
@@ -57,7 +57,7 @@
         <p>{favFood}</p>
     </div>
 
-    <img id="tetoFat" src="/images/me_page_images/teto_fat.webp" loading="lazy" alt="teto fat ahh">
+    <img id="tetoFat" decoding="async"src="/images/me_page_images/teto_fat.webp" loading="lazy" alt="teto fat ahh">
 
     <div class="fourthDivider"> 
         <Divider></Divider>
@@ -66,7 +66,7 @@
     <div id="favGamesContainer">
         <p>{favGames}</p>
     </div>
-    <img id="persona3" src="/images/me_page_images/persona3.webp" loading="lazy" alt="persona 3">
+    <img id="persona3" decoding="async" src="/images/me_page_images/persona3.webp" loading="lazy" alt="persona 3">
 
     <div class="fifthDivider">
         <Divider></Divider>
@@ -77,15 +77,15 @@
     </div>
     
     <div class="galleryImgContainer">
-        <img id="img1" src="/images/me_page_images/gallery/catgrass.webp" loading="lazy" alt="cat on grass">
-        <img id="img2"src="/images/me_page_images/gallery/catsmile.webp" loading="lazy" alt="cat chilling">
-        <img id="img3"src="/images/me_page_images/gallery/cherries.webp" loading="lazy" alt="cherries">
-        <img id="img4"src="/images/me_page_images/gallery/city.webp" loading="lazy" alt="city">
-        <img id="img5"src="/images/me_page_images/gallery/city2.webp" loading="lazy" alt="city">
-        <img id="img6"src="/images/me_page_images/gallery/city3.webp" loading="lazy" alt="city">
-        <img id="img7"src="/images/me_page_images/gallery/folk.webp" loading="lazy" alt="folk">
-        <img id="img8"src="/images/me_page_images/gallery/moon.webp" loading="lazy" alt="moon">
-        <img id="img9"src="/images/me_page_images/gallery/sunset.webp" loading="lazy" alt="sunset">
+        <img id="img1" decoding="async" src="/images/me_page_images/gallery/catgrass.webp" loading="lazy" alt="cat on grass">
+        <img id="img2" decoding="async" src="/images/me_page_images/gallery/catsmile.webp" loading="lazy" alt="cat chilling">
+        <img id="img3" decoding="async" src="/images/me_page_images/gallery/cherries.webp" loading="lazy" alt="cherries">
+        <img id="img4" decoding="async" src="/images/me_page_images/gallery/city.webp" loading="lazy" alt="city">
+        <img id="img5" decoding="async" src="/images/me_page_images/gallery/city2.webp" loading="lazy" alt="city">
+        <img id="img6" decoding="async" src="/images/me_page_images/gallery/city3.webp" loading="lazy" alt="city">
+        <img id="img7" decoding="async" src="/images/me_page_images/gallery/folk.webp" loading="lazy" alt="folk">
+        <img id="img8" decoding="async" src="/images/me_page_images/gallery/moon.webp" loading="lazy" alt="moon">
+        <img id="img9" decoding="async" src="/images/me_page_images/gallery/sunset.webp" loading="lazy" alt="sunset">
     </div>
 
     <div class="sixthDivider">
@@ -96,9 +96,9 @@
         <p>{@html socials}</p>
     </div>
 
-    <img id="fih" loading="lazy" src="/images/me_page_images/fish_smoke_cool.webp" alt="fih smoking">
-    <img id="flamingo" loading="lazy" src="/images/me_page_images/flamingo_al.webp" alt="flamingo">
+    <img id="fih" loading="lazy" decoding="async"src="/images/me_page_images/fish_smoke_cool.webp" alt="fih smoking">
+    <img id="flamingo" loading="lazy" decoding="async" src="/images/me_page_images/flamingo_al.webp" alt="flamingo">
 
 
-    <img id="footer1" loading="lazy" src="/images/home_page_images/diving_footer.webp" alt="diver">
+    <img id="footer1" loading="lazy" decoding="async" src="/images/home_page_images/diving_footer.webp" alt="diver">
 </div>

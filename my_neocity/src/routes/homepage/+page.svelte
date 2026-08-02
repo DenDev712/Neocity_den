@@ -115,8 +115,8 @@
     <p>{@html infoPage}</p>
 </div>
 
-<img id="evangelionGif" loading="lazy"src="/images/home_page_images/evangelion.webp" alt="evangelion"/>
-<img id="pokemonImg" loading="lazy" src="/images/home_page_images/water_pokemon.png" alt="water pokemon"/>
+<img id="evangelionGif" loading="lazy" decoding="async" src="/images/home_page_images/evangelion.webp" alt="evangelion"/>
+<img id="pokemonImg" loading="lazy" decoding="async" src="/images/home_page_images/water_pokemon.png" alt="water pokemon"/>
 
 <div id="audioPlayerContainer">
   <button type="button" onclick={handleAudioToggle}>
@@ -131,15 +131,15 @@
     id="audio" src="https://files.catbox.moe/35ccj6.mp3"></audio>
 
 <div id="fillerGifContainer">
-    <img id="fillerGif1" loading="lazy" src="/images/home_page_images/take_your_meds.webp" alt="take your meds gif">
-    <img id="fillerGif2" loading="lazy" src="/images/home_page_images/kirby.webp" alt="kirby gif">
-    <img id="fillerGif3" loading="lazy" src="/images/home_page_images/surfer.webp" alt="web surf gif">
+    <img id="fillerGif1" loading="lazy" decoding="async"src="/images/home_page_images/take_your_meds.webp" alt="take your meds gif">
+    <img id="fillerGif2" loading="lazy" decoding="async" src="/images/home_page_images/kirby.webp" alt="kirby gif">
+    <img id="fillerGif3" loading="lazy" decoding="async" src="/images/home_page_images/surfer.webp" alt="web surf gif">
 </div>
 
-<img id="snailImage" loading="lazy" src="/images/home_page_images/cute_snail.webp" alt="cute snail">
-<img id="badAppleGif" loading="lazy" src="/images/home_page_images/bad_apple.webp" alt="bad apple">
-<img id="cdAdGif" loading="lazy" src="/images/home_page_images/cd_ad.gif" alt="cd fake ad">
+<img id="snailImage" loading="lazy" decoding="async" src="/images/home_page_images/cute_snail.webp" alt="cute snail">
+<img id="badAppleGif" loading="lazy" decoding="async" src="/images/home_page_images/bad_apple.webp" alt="bad apple">
+<img id="cdAdGif" loading="lazy" decoding="async" src="/images/home_page_images/cd_ad.gif" alt="cd fake ad">
 
-<img id="footer" loading="lazy" src="/images/home_page_images/diving_footer.webp" alt="diver">
+<img id="footer" loading="lazy" decoding="async" src="/images/home_page_images/diving_footer.webp" alt="diver">
 </div>
 

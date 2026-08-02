@@ -37,8 +37,8 @@
         <p>{@html aboutPage}</p>
     </div>
 
-    <img id="burrito" loading="lazy" src="/images/foryou_page_images/frutiger_burrito.webp" alt="burrito">
-    <img id="funnyMeme" loading="lazy" src="/images/foryou_page_images/psycho_meme.webp" alt="meme">
+    <img id="burrito" decoding="async" loading="lazy" src="/images/foryou_page_images/frutiger_burrito.webp" alt="burrito">
+    <img id="funnyMeme" decoding="async" loading="lazy" src="/images/foryou_page_images/psycho_meme.webp" alt="meme">
 
-    <img id="footer2" loading="lazy" src="/images/home_page_images/diving_footer.webp" alt="diver">
+    <img id="footer2" decoding="async" loading="lazy" src="/images/home_page_images/diving_footer.webp" alt="diver">
 </div>
