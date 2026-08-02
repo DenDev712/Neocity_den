@@ -1,4 +1,4 @@
-import{D as e,O as ee,d as t,g as n,k as r,m as te,o as i,p as a,w as ne,z as o}from"../chunks/CFKIlgsO.js";import{s}from"../chunks/DYXSmFGA.js";import"../chunks/xihTtKlq.js";import{t as c}from"../chunks/CfjeKg4G.js";/* empty css                */var re=`i really like music and i have really diverse taste tbh
+import{D as e,O as ee,d as t,g as n,k as r,m as te,o as i,p as a,w as ne,z as o}from"../chunks/CFKIlgsO.js";import{s}from"../chunks/DsgxqWJM.js";import"../chunks/xihTtKlq.js";import{t as c}from"../chunks/DvnPgQna.js";/* empty css                */var re=`i really like music and i have really diverse taste tbh
 here’s some music i was listening to while making this page:
 (trying to listen to music that gives off the same vibe)
 <a href ="https://youtu.be/TEM5yY8q1nQ?si=GdStUftUVmFhdaKB">this playlist boots up old memories.</a>
