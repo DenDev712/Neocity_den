@@ -1,0 +1,1 @@
+import{g as e,m as t,o as n,w as r}from"./CFKIlgsO.js";import{s as i}from"./CPse81qv.js";import"./xihTtKlq.js";var a=e(`<img id="pageDivider" loading="lazy" alt="page divider" class="svelte-1fp7xm9"/>`);function o(e){var o=a();r(()=>n(o,`src`,`${i??``}/images/me_page_images/music.webp`)),t(e,o)}export{o as t};

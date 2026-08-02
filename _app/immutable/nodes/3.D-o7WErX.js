@@ -1,4 +1,4 @@
-import{D as e,O as t,R as n,d as r,g as i,k as a,m as o,o as s,w as c,z as l}from"../chunks/CFKIlgsO.js";import{s as u}from"../chunks/gUwGKD6c.js";import"../chunks/xihTtKlq.js";import{t as d}from"../chunks/BBSHAymo.js";/* empty css                */var f=`links for making ur own personal webpage/neocity:
+import{D as e,O as t,R as n,d as r,g as i,k as a,m as o,o as s,w as c,z as l}from"../chunks/CFKIlgsO.js";import{s as u}from"../chunks/CPse81qv.js";import"../chunks/xihTtKlq.js";import{t as d}from"../chunks/BCpK1E1U.js";/* empty css                */var f=`links for making ur own personal webpage/neocity:
 find my website code here:<a href="https://github.com/DenDev712">my github</a>  or here in <a href="https://gitlab.com/DenDev712">my gitlab</a>
 
 resources: 
