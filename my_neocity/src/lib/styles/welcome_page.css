@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'JejuGothic';
-    src: url('/fonts/JejuGothic-Regular.ttf') format('truetype');
+    src: url("/Neocity_den/fonts/JejuGothic-Regular.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -8,15 +8,15 @@ body{
     overflow: hidden;
     margin: 0;
     padding: 0;
-    cursor: url("/cursor/Normal Select.cur"), auto;
+    cursor: url("/Neocity_den/cursor/Normal Select.cur"), auto;
 }
 
 a{
-    cursor: url("/cursor/Lick Select.cur"), auto;
+    cursor: url("/Neocity_den/cursor/Lick Select.cur"), auto;
 }
 
 .welcome_bg{
-    background-image: url("/images/welcome_page_images/welcomepage_bg.jpg");
+    background-image: url("/Neocity_den/images/welcome_page_images/welcomepage_bg.jpg");
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
