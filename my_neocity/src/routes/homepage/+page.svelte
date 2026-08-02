@@ -6,6 +6,7 @@
 	import { updateDate } from '$lib/data/updateDate';
     import '$lib/styles/home_page.css';
     import { toggleAudio } from "$lib/audioPlayer/audioPlayer";
+    import { base } from '$app/paths';
 
     let audio: HTMLAudioElement;
     let playing = $state(false);
@@ -17,15 +18,15 @@
 </script>
 
 <div class="backgroundImage"></div>
-<img id="jellyFish" src="/images/home_page_images/jelly_fish.webp" alt="jelly fish">
+<img id="jellyFish" src="{base}/images/home_page_images/jelly_fish.webp" alt="jelly fish">
 <div id="pageContainer">
     <div id="pageHeader">
-        <img src="/images/home_page_images/mainp_header.webp" alt="the homepage header">
+        <img src="{base}/images/home_page_images/mainp_header.webp" alt="the homepage header">
     </div>
 <div id="meBar">
-    <a href="/mepage"><span id="meText">ME</span></a>
-    <a href="/homepage"><span id="homeText">HOME</span></a>   
-    <a href="/foryoupage"><span id="foryouText">FOR YOU</span></a>
+    <a href="{base}/mepage"><span id="meText">ME</span></a>
+    <a href="{base}/homepage"><span id="homeText">HOME</span></a>   
+    <a href="{base}/foryoupage"><span id="foryouText">FOR YOU</span></a>
 </div>
 
 <div id="helloTextContainer">
@@ -33,9 +34,9 @@
 </div>
 
 <div id="thisUserImages">
-    <img src="/images/home_page_images/this_user_likes_sky.jpg" alt="this user like night sky" id="userNightSkyImage">
-    <img src="/images/home_page_images/this_user_likes_ocean.jpg" alt="this user like ocean" id="userOceanImage">
-    <img src="/images/home_page_images/this_user_likes_miku.jpg" alt="this user like miku" id="userMikuImage">
+    <img src="{base}/images/home_page_images/this_user_likes_sky.jpg" alt="this user like night sky" id="userNightSkyImage">
+    <img src="{base}/images/home_page_images/this_user_likes_ocean.jpg" alt="this user like ocean" id="userOceanImage">
+    <img src="{base}/images/home_page_images/this_user_likes_miku.jpg" alt="this user like miku" id="userMikuImage">
 </div>
 
 <div id="moonWidget">
@@ -90,14 +91,14 @@
 </div>
 
 <div id="stamps">
-    <img src="/images/home_page_images/pull_peshk.webp" alt="fish stamp" id="stampFish">
-    <img src="/images/home_page_images/pull_peshk_orange.webp" alt="orange fish stamp" id="stampOrangeFish">
+    <img src="{base}/images/home_page_images/pull_peshk.webp" alt="fish stamp" id="stampFish">
+    <img src="{base}/images/home_page_images/pull_peshk_orange.webp" alt="orange fish stamp" id="stampOrangeFish">
 </div>
-<img src="/images/home_page_images/jellyfish.webp" alt="jelly fish gif" id="stampJellyfish">
+<img src="{base}/images/home_page_images/jellyfish.webp" alt="jelly fish gif" id="stampJellyfish">
 
 <div id="lastUpdateBar">
-    <img src="/images/home_page_images/eva_angel.webp" alt="evangelion angel gif" id="angel1">
-    <img src="/images/home_page_images/eva_angel.webp" alt="evangelion angel gif" id="angel2">
+    <img src="{base}/images/home_page_images/eva_angel.webp" alt="evangelion angel gif" id="angel1">
+    <img src="{base}/images/home_page_images/eva_angel.webp" alt="evangelion angel gif" id="angel2">
     <p>last updated on: {updateDate}</p> 
 </div>
 
@@ -109,37 +110,37 @@
 <div id="infoMeContainer">
     <p>{@html infoMe}</p>
 </div>
-<img id="catGif" src="/images/home_page_images/cute_Cat.webp" alt="cat gif">
+<img id="catGif" src="{base}/images/home_page_images/cute_Cat.webp" alt="cat gif">
 
 <div id="infoPageContainer">
     <p>{@html infoPage}</p>
 </div>
 
-<img id="evangelionGif" loading="lazy" decoding="async" src="/images/home_page_images/evangelion.webp" alt="evangelion"/>
-<img id="pokemonImg" loading="lazy" decoding="async" src="/images/home_page_images/water_pokemon.png" alt="water pokemon"/>
+<img id="evangelionGif" loading="lazy" decoding="async" src="{base}/images/home_page_images/evangelion.webp" alt="evangelion"/>
+<img id="pokemonImg" loading="lazy" decoding="async" src="{base}/images/home_page_images/water_pokemon.png" alt="water pokemon"/>
 
 <div id="audioPlayerContainer">
   <button type="button" onclick={handleAudioToggle}>
-  <img class="coverImage" src="/images/home_page_images/evangelion_cover.webp" alt="music cover">
+  <img class="coverImage" src="{base}/images/home_page_images/evangelion_cover.webp" alt="music cover">
   </button>
   <img 
   class:playing={playing} 
-  class="diskImage" src="/images/home_page_images/raw_disk1.webp" alt="disc">
+  class="diskImage" src="{base}/images/home_page_images/raw_disk1.webp" alt="disc">
 </div>
 <audio
     bind:this={audio}
     id="audio" src="https://files.catbox.moe/35ccj6.mp3"></audio>
 
 <div id="fillerGifContainer">
-    <img id="fillerGif1" loading="lazy" decoding="async"src="/images/home_page_images/take_your_meds.webp" alt="take your meds gif">
-    <img id="fillerGif2" loading="lazy" decoding="async" src="/images/home_page_images/kirby.webp" alt="kirby gif">
-    <img id="fillerGif3" loading="lazy" decoding="async" src="/images/home_page_images/surfer.webp" alt="web surf gif">
+    <img id="fillerGif1" loading="lazy" decoding="async"src="{base}/images/home_page_images/take_your_meds.webp" alt="take your meds gif">
+    <img id="fillerGif2" loading="lazy" decoding="async" src="{base}/images/home_page_images/kirby.webp" alt="kirby gif">
+    <img id="fillerGif3" loading="lazy" decoding="async" src="{base}/images/home_page_images/surfer.webp" alt="web surf gif">
 </div>
 
-<img id="snailImage" loading="lazy" decoding="async" src="/images/home_page_images/cute_snail.webp" alt="cute snail">
-<img id="badAppleGif" loading="lazy" decoding="async" src="/images/home_page_images/bad_apple.webp" alt="bad apple">
-<img id="cdAdGif" loading="lazy" decoding="async" src="/images/home_page_images/cd_ad.gif" alt="cd fake ad">
+<img id="snailImage" loading="lazy" decoding="async" src="{base}/images/home_page_images/cute_snail.webp" alt="cute snail">
+<img id="badAppleGif" loading="lazy" decoding="async" src="{base}/images/home_page_images/bad_apple.webp" alt="bad apple">
+<img id="cdAdGif" loading="lazy" decoding="async" src="{base}/images/home_page_images/cd_ad.gif" alt="cd fake ad">
 
-<img id="footer" loading="lazy" decoding="async" src="/images/home_page_images/diving_footer.webp" alt="diver">
+<img id="footer" loading="lazy" decoding="async" src="{base}/images/home_page_images/diving_footer.webp" alt="diver">
 </div>
 
