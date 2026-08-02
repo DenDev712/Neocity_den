@@ -3,7 +3,7 @@
     import '$lib/styles/welcome_page.css';
     import { base } from '$app/paths';
 </script>
-
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <div class="welcome_bg">
             <div class="welcome">
                 <div id="welcomeContainer">

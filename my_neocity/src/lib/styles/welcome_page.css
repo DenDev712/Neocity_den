@@ -68,6 +68,8 @@ a{
 #enterButton{
     position: absolute;
     top: 75%;
+    width:400px;
+    height:auto;
     left: 52%;
     transform: translate(-50%, -50%);
     z-index: 5;
