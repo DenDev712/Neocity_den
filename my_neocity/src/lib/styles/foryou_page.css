@@ -22,7 +22,7 @@
 #lightHouse{
     position:absolute;
     z-index:10;
-    top:220px;
+    top:600px;
     width:600px;
 }
 #lightHouseContainer {
@@ -32,7 +32,7 @@
 
 #lightBeam {
     position: absolute;
-    top: 190px;      
+    top: 600px;      
     left: 270px;      
     width: 500px;
     height: 250px;

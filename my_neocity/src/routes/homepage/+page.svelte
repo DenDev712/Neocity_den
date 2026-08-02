@@ -20,7 +20,7 @@
 <img id="jellyFish" src="/images/home_page_images/jelly_fish.webp" alt="jelly fish">
 <div id="pageContainer">
     <div id="pageHeader">
-        <img src="/images/home_page_images/mainp_header.gif" alt="the homepage header">
+        <img src="/images/home_page_images/mainp_header.webp" alt="the homepage header">
     </div>
 <div id="meBar">
     <a href="/mepage"><span id="meText">ME</span></a>
@@ -93,11 +93,11 @@
     <img src="/images/home_page_images/pull_peshk.webp" alt="fish stamp" id="stampFish">
     <img src="/images/home_page_images/pull_peshk_orange.webp" alt="orange fish stamp" id="stampOrangeFish">
 </div>
-<img src="/images/home_page_images/jellyfish.gif" alt="jelly fish gif" id="stampJellyfish">
+<img src="/images/home_page_images/jellyfish.webp" alt="jelly fish gif" id="stampJellyfish">
 
 <div id="lastUpdateBar">
-    <img src="/images/home_page_images/eva_angel.gif" alt="evangelion angel gif" id="angel1">
-    <img src="/images/home_page_images/eva_angel.gif" alt="evangelion angel gif" id="angel2">
+    <img src="/images/home_page_images/eva_angel.webp" alt="evangelion angel gif" id="angel1">
+    <img src="/images/home_page_images/eva_angel.webp" alt="evangelion angel gif" id="angel2">
     <p>last updated on: {updateDate}</p> 
 </div>
 
@@ -109,13 +109,13 @@
 <div id="infoMeContainer">
     <p>{@html infoMe}</p>
 </div>
-<img id="catGif" src="/images/home_page_images/cute_Cat.gif" alt="cat gif">
+<img id="catGif" src="/images/home_page_images/cute_Cat.webp" alt="cat gif">
 
 <div id="infoPageContainer">
     <p>{@html infoPage}</p>
 </div>
 
-<img id="evangelionGif" loading="lazy"src="/images/home_page_images/evangelion.gif" alt="evangelion"/>
+<img id="evangelionGif" loading="lazy"src="/images/home_page_images/evangelion.webp" alt="evangelion"/>
 <img id="pokemonImg" loading="lazy" src="/images/home_page_images/water_pokemon.png" alt="water pokemon"/>
 
 <div id="audioPlayerContainer">
@@ -131,15 +131,15 @@
     id="audio" src="https://files.catbox.moe/35ccj6.mp3"></audio>
 
 <div id="fillerGifContainer">
-    <img id="fillerGif1" loading="lazy" src="/images/home_page_images/take_your_meds.gif" alt="take your meds gif">
-    <img id="fillerGif2" loading="lazy" src="/images/home_page_images/kirby.gif" alt="kirby gif">
-    <img id="fillerGif3" loading="lazy" src="/images/home_page_images/surfer.gif" alt="web surf gif">
+    <img id="fillerGif1" loading="lazy" src="/images/home_page_images/take_your_meds.webp" alt="take your meds gif">
+    <img id="fillerGif2" loading="lazy" src="/images/home_page_images/kirby.webp" alt="kirby gif">
+    <img id="fillerGif3" loading="lazy" src="/images/home_page_images/surfer.webp" alt="web surf gif">
 </div>
 
 <img id="snailImage" loading="lazy" src="/images/home_page_images/cute_snail.webp" alt="cute snail">
-<img id="badAppleGif" loading="lazy" src="/images/home_page_images/bad_apple.gif" alt="bad apple">
+<img id="badAppleGif" loading="lazy" src="/images/home_page_images/bad_apple.webp" alt="bad apple">
 <img id="cdAdGif" loading="lazy" src="/images/home_page_images/cd_ad.gif" alt="cd fake ad">
 
-<img id="footer" loading="lazy" src="/images/home_page_images/diving_footer.gif" alt="diver">
+<img id="footer" loading="lazy" src="/images/home_page_images/diving_footer.webp" alt="diver">
 </div>
 

@@ -13,7 +13,7 @@
         <div class="welcome_bg">
             <div class="welcome">
                 <div id="welcomeContainer">
-                <img src="/images/welcome_page_images/welcomepage_textbox.png" alt="Welcome to my web page">
+                <img src="/images/welcome_page_images/welcomepage_textbox.webp" alt="Welcome to my web page">
                 <p id="welcomeText">WELCOME TO THE DEPTHS</p>
                 <p id="welcomeText2">By DenDev712</p>
                 </div>
@@ -28,16 +28,16 @@
 
             <div class="corals">
                 <div id="coral1">
-                    <img src="/images/welcome_page_images/coral1.png" alt="coral">
+                    <img src="/images/welcome_page_images/coral1.webp" alt="coral">
                 </div>
                 <div id="coral2">
-                    <img src="/images/welcome_page_images/coral1.png" alt="coral">
+                    <img src="/images/welcome_page_images/coral1.webp" alt="coral">
                 </div>
                 <div id="coral3">
-                    <img src="/images/welcome_page_images/coral1.png" alt="coral">  
+                    <img src="/images/welcome_page_images/coral1.webp" alt="coral">  
                 </div>
                 <div id="coral4">
-                    <img src="/images/welcome_page_images/coral1.png" alt="coral">          
+                    <img src="/images/welcome_page_images/coral1.webp" alt="coral">          
                 </div>
             </div>
             
@@ -53,7 +53,7 @@
                 <img src="/images/welcome_page_images/horsefish.webp" alt="horse fish swimming">
             </div>
             <div id="bubbles">
-                <img src="/images/welcome_page_images/bubbles.png" alt="bubbles">
+                <img src="/images/welcome_page_images/bubbles.webp" alt="bubbles">
             </div>
         </div>
     </body>

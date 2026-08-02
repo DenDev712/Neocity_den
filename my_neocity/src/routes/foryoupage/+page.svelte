@@ -16,7 +16,7 @@
 
 <div id="pageContainer">
     <div id="pageHeader">
-        <img src="/images/home_page_images/mainp_header.gif" alt="the homepage header">
+        <img src="/images/home_page_images/mainp_header.webp" alt="the homepage header">
     </div>
 
      <div id="meBar">
@@ -40,5 +40,5 @@
     <img id="burrito" loading="lazy" src="/images/foryou_page_images/frutiger_burrito.webp" alt="burrito">
     <img id="funnyMeme" loading="lazy" src="/images/foryou_page_images/psycho_meme.webp" alt="meme">
 
-    <img id="footer2" loading="lazy" src="/images/home_page_images/diving_footer.gif" alt="diver">
+    <img id="footer2" loading="lazy" src="/images/home_page_images/diving_footer.webp" alt="diver">
 </div>

@@ -1,4 +1,4 @@
-<img id="pageDivider" loading="lazy" src="/images/me_page_images/music.gif" alt="page divider">
+<img id="pageDivider" loading="lazy" src="/images/me_page_images/music.webp" alt="page divider">
 
 <style>
 #pageDivider{

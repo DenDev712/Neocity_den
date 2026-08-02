@@ -13,7 +13,7 @@
 <img id="fishMove" src="/images/me_page_images/fish_cute.webp" alt="fih">
 <div id="pageContainer">
     <div id="pageHeader">
-        <img src="/images/home_page_images/mainp_header.gif" alt="the homepage header">
+        <img src="/images/home_page_images/mainp_header.webp" alt="the homepage header">
     </div>
 
     <div id="meBar">
@@ -25,8 +25,8 @@
     <div id="musicTxtContainer">
         <p>{@html favMusic}</p>
     </div>
-    <img id="fishGroove" src="/images/me_page_images/fish_groove.gif" alt="fish">
-    <img id="aaGif" src="/images/me_page_images/aaaaaa.gif" alt="scream gif">
+    <img id="fishGroove" src="/images/me_page_images/fish_groove.webp" alt="fish">
+    <img id="aaGif" src="/images/me_page_images/aaaaaa.webp" alt="scream gif">
 
     <div class="firstDivider">
         <Divider></Divider>
@@ -100,5 +100,5 @@
     <img id="flamingo" loading="lazy" src="/images/me_page_images/flamingo_al.webp" alt="flamingo">
 
 
-    <img id="footer1" loading="lazy" src="/images/home_page_images/diving_footer.gif" alt="diver">
+    <img id="footer1" loading="lazy" src="/images/home_page_images/diving_footer.webp" alt="diver">
 </div>
