@@ -20,10 +20,10 @@
     outline: 5px solid rgb(0, 42, 255);
 }
 #musicTxtContainer p{
+    font-family: 'JejuGothic', 'Liberation Serif', serif;
     position:absolute;
     top: -10px;
     font-size:37px;
-    font-family:serif;
     color:white;
 }
 a:visited {
@@ -70,10 +70,10 @@ a:active {
     outline: 5px solid rgb(0, 42, 255);
 }
 #favAnimeContainer p{
+    font-family: 'JejuGothic', 'Liberation Serif', serif;
     position:absolute;
     top: -8px;
     font-size:37px;
-    font-family:serif;
     color:white;
 }
 
@@ -131,10 +131,10 @@ a:active {
     outline: 5px solid rgb(0, 42, 255);
 }
 #favMangaContainer p{
+    font-family: 'JejuGothic', 'Liberation Serif', serif;
     position:absolute;
     top: -10px;
     font-size:37px;
-    font-family:serif;
     color:white;
 }
 #hnkImage{
@@ -172,10 +172,10 @@ a:active {
     outline: 5px solid rgb(0, 42, 255);
 }
 #favFoodContainer p{
+    font-family: 'JejuGothic', 'Liberation Serif', serif;
     position:absolute;
     top: -10px;
     font-size:37px;
-    font-family:serif;
     color:white;
 }
 #tetoFat{
@@ -206,10 +206,10 @@ a:active {
     outline: 5px solid rgb(0, 42, 255);
 }
 #favGamesContainer p{
+    font-family: 'JejuGothic', 'Liberation Serif', serif;
     position:absolute;
     top: -20px;
     font-size:37px;
-    font-family:serif;
     color:white;
 }
 #persona3{
@@ -240,11 +240,11 @@ a:active {
     outline: 5px solid rgb(0, 42, 255);
 }
 #galleryTxtContainer p{
+    font-family: 'JejuGothic', 'Liberation Serif', serif;
     position:absolute;
     top: -20px;
     left: 270px;
     font-size:37px;
-    font-family:serif;
     color:white;
 }
 
@@ -282,11 +282,11 @@ a:active {
     outline: 5px solid rgb(0, 42, 255);
 }
 #socialsTxtContainer p{
+    font-family: 'JejuGothic', 'Liberation Serif', serif;
     position:absolute;
     top: -20px;
     left: 20px;
     font-size:37px;
-    font-family:serif;
     color:white; 
     text-decoration: none; 
 }
