@@ -1,7 +1,7 @@
 # Neocity_den
 Personal webpage with early 2000s web vibes
 <br>
-for the moment it looks best in firefox desktop, still even there needs some fixes
+works in chrome and brave browser, some font problems in firefox 
 <br>
 https://dendev712.github.io/Neocity_den/
 <br>
