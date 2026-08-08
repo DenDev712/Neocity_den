@@ -1,4 +1,4 @@
-import{A as e,D as t,F as ee,I as te,O as ne,a as re,b as n,d as r,g as i,j as ie,k as a,m as ae,o,p as s,s as oe,v as c,w as se,y as ce,z as l}from"../chunks/CFKIlgsO.js";import{s as u}from"../chunks/C70A3wav.js";import"../chunks/xihTtKlq.js";/* empty css                */var le=`
+import{A as e,D as t,F as ee,I as te,O as ne,a as re,b as n,d as r,g as i,j as ie,k as a,m as ae,o,p as s,s as oe,v as c,w as se,y as ce,z as l}from"../chunks/CFKIlgsO.js";import{s as u}from"../chunks/B4SqY-n1.js";import"../chunks/xihTtKlq.js";/* empty css                */var le=`
 hello diver and welcome to my personal website!!
 i am den, an albanian swe with a lot of hobbies,
 i was bored one day and i came across a video talking about indie web and the wave of nostalgia hit me,
