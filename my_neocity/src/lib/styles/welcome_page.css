@@ -58,10 +58,11 @@ a{
     top: 46%;
     left: 50%;
     font-size: 2.6rem;
+    font-size: clamp(1.2rem, 6vw, 2.6rem);
    
 }
 #welcomeText2 {
-    font-size: 1.8rem;
+    font-size: clamp(1rem, 4vw, 1.8rem);
     top: 56%;
     left: 50%;
 }
