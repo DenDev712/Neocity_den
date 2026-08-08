@@ -3,6 +3,7 @@
     src: url("/Neocity_den/fonts/JejuGothic-Regular.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 body{
     overflow: hidden;
