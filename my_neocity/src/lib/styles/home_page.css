@@ -107,7 +107,7 @@ a:active {
 }
 #helloTextContainer p{
     position:absolute;
-    top: -70px;
+    top: -70px; 
     font-size:37px;
     font-family:serif;
     color:white;
