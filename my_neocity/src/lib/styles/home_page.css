@@ -106,10 +106,11 @@ a:active {
     outline: 5px solid rgb(0, 42, 255);
 }
 #helloTextContainer p{
+    font-family: 'JejuGothic', 'Liberation Serif', serif;
     position:absolute;
+    width: 100%;
     top: -70px; 
     font-size:37px;
-    font-family:serif;
     color:white;
 }
 
@@ -193,7 +194,7 @@ a:active {
     position:absolute;
     left:600px;
     font-size:32px;
-    font-family:serif;
+    width:100%;
     font-weight: bold;
     color:white;
 }
@@ -247,10 +248,11 @@ a:active {
     z-index: 4;
 }
 #infoMeContainer p{
+    font-family: 'JejuGothic', 'Liberation Serif', serif;
     position:absolute;
+    width: 100%;
     top:-30px;
     font-size:37px;
-    font-family:serif;
     color:white;
 }
 
@@ -276,10 +278,11 @@ a:active {
     outline: 5px solid rgb(0, 42, 255);
 }
 #infoPageContainer p{
+    font-family: 'JejuGothic', 'Liberation Serif', serif;
     position:absolute;
+    width: calc(100% - 2px);
     top:-30px;
     font-size:37px;
-    font-family:serif;
     color:white;
 }
 
