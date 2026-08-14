@@ -156,7 +156,7 @@ a:active {
     left:540px;
     transform: translateX(-50%);
     width: 900px;
-    height: 250px;
+    height: 260px;
     background-color:rgba(145, 181, 212, 0.74);
     filter:opacity(0.7);
     border-radius: 7px;
@@ -186,11 +186,11 @@ a:active {
 }
 #favGamesContainer{
     position: absolute;
-    top:3150px;
+    top:3140px;
     left:540px;
     transform: translateX(-50%);
     width: 900px;
-    height: 300px;
+    height: 320px;
     background-color:rgba(145, 181, 212, 0.74);
     filter:opacity(0.7);
     border-radius: 7px;
